@@ -1,0 +1,63 @@
+#include <stdio.h>
+
+int main (){
+	int numeros [5];
+	int i;
+	
+	
+/*	numeros[0] = 33;
+	numeros[1] = 44;
+	numeros[2] = 55; 
+	numeros[3] = 66;
+	numeros[4] = 77;
+	*/
+	
+	
+	
+	for (i=0;i<5;i++){
+		printf("Numero: ");
+		scanf("%d",&numeros[i]);
+	}
+	
+	printf("==== Valores carregados =====");
+	
+/*	printf("\nnumeros[0] = %d", numeros [0]);
+	printf("\nnumeros[0] = %d", numeros [1]);
+	printf("\nnumeros[0] = %d", numeros [2]);
+	printf("\nnumeros[0] = %d", numeros [3]);
+	printf("\nnumeros[0] = %d", numeros [4]);	
+	*/
+	
+	for(i=0;i<5;i++) {
+	 printf("\nnumeros [%d] = %d",i, numeros[i]);
+	}
+		
+	/*
+	numeros [0] = numeros [0]+10;
+	numeros [1] = numeros [1]+10;
+	numeros [2] = numeros [2]+10;
+	numeros [3] = numeros [3]+10;
+	numeros [4] = numeros [4]+10;
+	*/
+	for(i=0;i<5;i++){
+		numeros[i] = numeros[i] + 10;
+	}
+	
+
+	printf("\n==== Valores somados =====");
+	/*
+	printf("\nnumeros[0] =%d", numeros [0]);
+	printf("\nnumeros[0] =%d", numeros [1]);
+	printf("\nnumeros[0] =%d", numeros [2]);
+	printf("\nnumeros[0] =%d", numeros [3]);
+	printf("\nnumeros[0] =%d", numeros [4]);
+	*/
+	for(i=0;i<5;i++){
+		printf("\nnumeros[%d] =%d",i, numeros[i]);
+	}
+	
+	
+	
+	
+	return 0;
+}
