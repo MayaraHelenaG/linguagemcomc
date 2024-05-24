@@ -1,0 +1,30 @@
+#include 	<stdio.h>
+#include <conio.h>	
+
+		int main (){
+			//Declaração das variáveis
+			int num1, num2, num3, numsoma;
+			int i; 
+			
+			printf("---- Calculadora ----\n\n");
+			
+			//Entrada de dados
+			for (i= 1; i<=10; i++){
+				printf("Digite o primeiro numero %d\n",i);
+				scanf("%d",&num1);
+				
+				printf("Digite o segundo numero %d\n", i);
+				scanf("%d",&num2);
+				
+				//Processamento
+				soma = (num1 + num2);
+				
+				//Saída 
+				printf("\nSoma dos numeros %d = %d\n", 1, soma);
+				printf("----------------------------------------------\n\n");
+				
+			}
+			getch ();
+			return (0);
+			
+		}
